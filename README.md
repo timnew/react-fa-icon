@@ -44,21 +44,21 @@ const { FaIcon, FaStack } = require('react-fa-icon');
 
 **HTML**
 ```html
-<div class="list-group">
-  <a class="list-group-item" href="#"><i class="fa fa-home fa-fw"></i>&nbsp; Home</a>
-  <a class="list-group-item" href="#"><i class="fa fa-book fa-fw"></i>&nbsp; Library</a>
-  <a class="list-group-item" href="#"><i class="fa fa-pencil fa-fw"></i>&nbsp; Applications</a>
-  <a class="list-group-item" href="#"><i class="fa fa-cog fa-fw"></i>&nbsp; Settings</a>
+<div>
+  <a href="#"><i class="fa fa-home fa-fw"></i>&nbsp; Home</a>
+  <a href="#"><i class="fa fa-book fa-fw"></i>&nbsp; Library</a>
+  <a href="#"><i class="fa fa-pencil fa-fw"></i>&nbsp; Applications</a>
+  <a href="#"><i class="fa fa-cog fa-fw"></i>&nbsp; Settings</a>
 </div>
 ```
 
 **JSX**
 ```jsx
-<div className="list-group">
-  <a className="list-group-item" href="#"><FaIcon icon="home" fixedWidth /> &nbsp; Home</a>
-  <a class="list-group-item" href="#"><FaIcon icon="book" fixedWidth />&nbsp; Library</a>
-  <a class="list-group-item" href="#"><FaIcon icon="pencil" fixedWidth />&nbsp; Applications</a>
-  <a class="list-group-item" href="#"><FaIcon icon="cog" fixedWidth />&nbsp; Settings</a>
+<div>
+  <a href="#"><FaIcon icon="home" fixedWidth />&nbsp; Home</a>
+  <a href="#"><FaIcon icon="book" fixedWidth />&nbsp; Library</a>
+  <a href="#"><FaIcon icon="pencil" fixedWidth />&nbsp; Applications</a>
+  <a href="#"><FaIcon icon="cog" fixedWidth />&nbsp; Settings</a>
 </div>
 ```
 
