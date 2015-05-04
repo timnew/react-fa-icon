@@ -1,0 +1,27 @@
+{
+  "name": "react-fa-icon",
+  "version": "0.1.0",
+  "description": "React.js and FontAwesome integration",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/timnew/react-fa-icon.git"
+  },
+  "keywords": [
+    "react",
+    "fontawesome",
+    "fa"
+  ],
+  "author": "timnew <timnew.wti@gmail.com> (http://timnew.me)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/timnew/react-fa-icon/issues"
+  },
+  "homepage": "https://github.com/timnew/react-fa-icon",
+  "dependencies": {
+    "classnames": "^2.0.0",
+    "font-awesome": "^4.3.0",
+    "react": "^0.13.2"
+  }
+}
