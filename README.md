@@ -9,6 +9,8 @@ react-fa-icon
 const { FaIcon, FaStack } = require('react-fa-icon');
 ```
 
+**CAUTION** Font Awesome CSS is not required, it must be included in HTML or via WebPack manually.
+
 ### Basic Icons
 
 **HTML**
